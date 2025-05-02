@@ -1,5 +1,4 @@
 'use client'
-import Navbar from '@/app/components/Navbar'
 import React, { useEffect, useRef, useState } from 'react'
 import * as motion from "motion/react-client"
 
