@@ -3,17 +3,17 @@ import Link from 'next/link'
 
 const Navbar = () => {
   return (
-    <nav className="absolute top-0 left-0 right-0 z-50">
+    <nav className="absolute top-0 left-0 right-0 z-50 ">
       <div className="max-w-full mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
-            <Link href="/" className="text-2xl font-bold">
+            <Link href="/" className="text-2xl font-bold text-[#515230]">
               Ferny
             </Link>
           </div>
           
           <div className="hidden md:block">
-            <div className="ml-10 flex items-center space-x-4">
+            <div className="ml-10 flex items-center space-x-4 text-[#515230]">
               <Link href="/furniture" className=" px-3 py-2 rounded-md">
                 Furniture
               </Link>
@@ -35,7 +35,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="md:flex items-center space-x-4 hidden">
+          <div className="md:flex items-center space-x-4 hidden text-[#515230]">
             <div>
               <Link href="/cart" className=" px-3 py-2 rounded-md">
                 Cart

@@ -15,7 +15,7 @@ function ScrollProgress() {
         top: 0,
         left: 0,
         right: 0,
-        height: 2,
+        height: 4,
         originX: 0,
         backgroundColor: "#c9c5ba",
     }}
