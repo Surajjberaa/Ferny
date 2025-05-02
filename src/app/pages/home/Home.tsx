@@ -1,9 +1,9 @@
 import React from 'react'
-import Landing from './Lanfing/page'
-import ProductPage from './Products/page'
-import ProductLargeShowcase from './ProductLarge/page'
-import Interiors from './Interiors/page'
-import HomeBottom from './HomeBottom/page'
+import Landing from './Landing'
+import ProductPage from './Products'
+import ProductLargeShowcase from './ProductLarge'
+import Interiors from './Interiors'
+import HomeBottom from './HomeBottom'
 
 function Home() {
   return (

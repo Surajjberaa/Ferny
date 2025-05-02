@@ -1,5 +1,5 @@
 'use client'
-import Home from "./pages/home/Page";
+import Home from "./pages/home/Home";
 import ReactLenis, { useLenis } from "lenis/react";
 
 
