@@ -1,14 +1,14 @@
 'use client'
 import Home from "./pages/home/Home";
-import ReactLenis, { useLenis } from "lenis/react";
+import ReactLenis from "lenis/react";
 
 
 export default function Root() {
 
   //Lenis
-  const lenis = useLenis(({ scroll }) => {
-    // called every scroll
-  });
+  // const lenis = useLenis(({ scroll }) => {
+  //   // called every scroll
+  // });
   
 
   return (
